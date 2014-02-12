@@ -1,0 +1,199 @@
+/* zera margin e padding */
+body, h1, h2, p
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	text-align: center;
+}
+
+#content
+{
+	width: 750px;
+	margin: 6px auto;
+	border: 2px solid #0CF;
+	font-family: sans-serif;
+}
+
+h1
+{
+	height: 120px;
+	background: url(../imgs/logo.gif) no-repeat center;
+	margin: 10px;
+}
+
+h1 span
+{
+	display: none;
+}
+
+/* menu */
+.item
+{
+	width: 140px;
+	float: left;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.item a
+{
+	display: block;
+	margin: 4px 0px 0px 4px;
+	padding: 6px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	color: #FFF;
+	background: #0CF;
+}
+
+.item a:hover
+{
+	text-decoration: none;
+	color: #000;
+	background: #F00;
+}
+
+.submenu
+{
+	visibility: hidden;
+	position: absolute;
+	width: 140px;
+	left: 0px;
+}
+/* fim de menu */
+
+h2
+{
+	margin: 30px 30px 10px 30px;
+	padding-top: 30px;
+	text-align: left;
+	font-variant: small-caps;
+	color: #0CF;
+}
+
+/* listas */
+ul
+{
+	margin: 30px;
+	list-style: none;
+	text-align: left;
+}
+
+ul ul
+{
+	margin: 0px 30px;
+}
+
+ul li
+{
+	margin-top: 10px;
+}
+
+ul ul li
+{
+	margin: 0px;
+}
+
+li b
+{
+	color: #0CF;
+}
+/* fim de listas */
+
+p
+{
+	margin: 30px;
+	text-align: justify;
+}
+
+a
+{
+	text-decoration: none;
+	color: #0CF;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #F00;
+}
+
+/* forms */
+form
+{
+	margin: 30px;
+	text-align: left;
+}
+
+form span
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+label
+{
+	width: 24%;
+	margin: 4px 0px;
+	text-align: right;
+	vertical-align: middle;
+}
+/* fim de forms */
+
+/* tabelas */
+table
+{
+	margin: 30px;
+	border-collapse: collapse;
+}
+
+th, td
+{
+	padding: 4px 6px;
+	border: 2px solid #0CF;
+}
+
+th
+{
+	background: #0CF;
+	color: #FFF;
+}
+
+td
+{
+	text-align: center;
+}
+
+td a
+{
+	text-decoration: none;
+	color: #0CF;
+}
+
+td a:hover
+{
+	text-decoration: underline;
+	color: #F00;
+}
+/* fim de tabelas */
+
+#footer
+{
+	padding: 4px;
+	border-top: 2px solid #0CF;
+	text-align: center;
+	font-size: 80%;
+	font-weight: bold;
+	color: #0CF;
+}
+
+#footer address
+{
+	font-style: normal;
+}
